@@ -34,8 +34,6 @@ enterprise_API_ecosystem_manager_crewai/
 │   ├── compliance_agent.py        # ✅ ACTIVE: Security and compliance monitoring
 │   ├── developer_experience_agent.py # ✅ ACTIVE: Developer tools and SDKs
 │   ├── documentation_agent.py     # ✅ ACTIVE: Documentation generation
-│   ├── integration_agent.py       # ❌ NOT USED: Integration testing
-│   └── performance_agent.py       # ❌ NOT USED: Performance monitoring
 │
 ├── configs/                        # Configuration management
 │   └── app_config.json            # Application configuration
@@ -56,8 +54,6 @@ enterprise_API_ecosystem_manager_crewai/
 │   ├── developer_experience_tasks.py # ✅ ACTIVE: Developer experience tasks
 │   ├── discovery_tasks.py        # ✅ ACTIVE: Discovery task definitions
 │   ├── documentation_tasks.py    # ✅ ACTIVE: Documentation tasks
-│   ├── integration_tasks.py      # ❌ NOT USED: Integration testing tasks
-│   └── performance_tasks.py      # ❌ NOT USED: Performance monitoring tasks
 │
 ├── tools/                         # Custom tools for specialized functionality
 │   ├── __init__.py               # Package initialization
@@ -142,28 +138,6 @@ enterprise_API_ecosystem_manager_crewai/
 
 **Tools**:
 - SDK Generator Tool
-
-### Agents Available But Not Currently Used
-
-#### 5. Performance Agent ❌ (Not in main.py)
-**Role**: Performance Optimization Specialist
-**Status**: Implemented but not integrated into main workflow
-**Potential Responsibilities**:
-- API performance monitoring
-- Load testing and benchmarking
-- Performance bottleneck identification
-- Optimization recommendations
-- SLA monitoring
-
-#### 6. Integration Agent ❌ (Not in main.py)
-**Role**: Integration Testing Specialist
-**Status**: Implemented but not integrated into main workflow
-**Potential Responsibilities**:
-- API contract validation
-- Breaking change detection
-- Compatibility testing
-- Integration test generation
-- Regression testing
 
 ## Current Enterprise API Ecosystem Workflow
 
